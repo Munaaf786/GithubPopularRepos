@@ -1,0 +1,63 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.main-heading {
+  font-family: 'Lobster';
+  font-size: 40px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.language-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.repo-list {
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 767px) {
+  .bg-container {
+    padding: 48 px;
+  }
+
+  .repo-list {
+    width: 90%;
+  }
+}
+
+.repositories-loader-container {
+  margin-top: 20px;
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-view-image {
+  width: 60%;
+}
+
+.failure-view-msg {
+  font-family: 'Bree Serif';
+  font-size: 56px;
+  font-weight: bold;
+  color: #1e293b;
+}
